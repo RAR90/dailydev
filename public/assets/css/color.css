@@ -1,0 +1,79 @@
+.off-canvas-menu .navigation li>a:hover,
+.block-item-category,
+.ajax-load-more,
+.site-header,
+.layout-2 .get-category-id.active,
+.news-ticker .carousel .news-ticker-title,
+.weather,
+.popular-posts .count,
+.widget-three-tabs .nav-tabs .nav-link.active,
+.post-block-arrow li a:hover,
+.slick-arrow:hover,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.comment-navigation .nav-links a,
+#backtotop,
+.tags>a:hover,
+.tagcloud a:hover,
+.widget_shopping_cart_content .buttons a,
+.total-cart,
+.primary-menu ul li .children li a:hover,
+.primary-menu ul li .sub-menu li a:hover,
+.primary-menu ul li .children li.current-menu-item>a,
+.primary-menu ul li .sub-menu li.current-menu-item>a,
+.pagination .nav-links .prev.page-numbers:hover,
+.pagination .nav-links .next.page-numbers:hover,
+.pagination .nav-links .page-numbers.current,
+.woocommerce.single-product .onsale,
+.comment-reply-link,
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a,
+.checkout-button,
+.widget-woocommerce .single_add_to_cart_button,
+.pagination .nav-links .page-numbers:hover,
+.akhbar-btn,
+.product-item-image .onsale,
+.blog-meta a,
+.countdown-date span,
+.pagination .nav-links .page-numbers.current {
+    background: #0E68EF;
+    background: -webkit-linear-gradient(to right, #0E68EF, #1091FF);
+    background: linear-gradient(to right, #0E68EF, #1091FF);
+}
+
+
+.layout-6 ul li a.active,
+blockquote:before,
+.footer-widget .mc4wp-form p,
+.blog-item h5 a:hover,
+.product-item-content .price ins,
+.star-rating span:before,
+.layout-5 ul li a.active,
+.copyright-bar a,
+a,
+a:hover,
+.primary-menu ul li.current-menu-item>a {
+    color: #0E68EF;
+}
+
+
+.tags>a,
+.uil-ripple-css div,
+.uil-ripple-css div:nth-of-type(1),
+.sticky .the_excerpt_content,
+.uil-ripple-css div:nth-of-type(2) {
+    border-color: #0E68EF;
+}
+
+
+/*----------------------------------------
+    IF SCREEN SIZE LESS THAN 769px WIDE
+    ------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .navbar .menu-item>.active {
+        background: #0E68EF;
+    }
+}
