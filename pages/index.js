@@ -24,32 +24,6 @@ export default function Home() {
                 <div className="col-xl-4 col-md-12">
                   <h5 className="block-title">Trending News</h5>
                 </div>
-                <div className="col-xl-8 col-md-12">
-                  <ul className="list-inline text-xl-right text-left mb-4 mb-xl-0">
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="2,4,6,7,8,11," data-title-length="50">
-                      All </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="2" data-title-length="50">Technology</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="4" data-title-length="50">Travel</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="6" data-title-length="50">Covid 19</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="7" data-title-length="50">Health</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="8" data-title-length="50">Lifestyle</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#" className="get-category-id" data-category="11" data-title-length="50">Politics</a>
-                    </li>
-                  </ul>
-                </div>
               </div>
               <div className="row">
                 <div className="col-xl-6 col-md-12">
