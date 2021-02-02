@@ -1,13 +1,13 @@
 (function($) {
     "use strict";
 
-    //Preloader
+    // Preloader
     $(window).on('load', function() {
         $('#preloader').delay(350).fadeOut('slow');
     });
 
-    // Lazy load
-    $("img").unveil();
+    // // Lazy load
+    // $("img").unveil();
 
     // Slick RTL Support
     function rtl_slick() {
@@ -258,18 +258,18 @@
 
 
     //Back to top
-    $(window).on('scroll', function() {
-        if ($(this).scrollTop() >= 700) {
-            $('#backtotop').fadeIn(500);
-        } else {
-            $('#backtotop').fadeOut(500);
-        }
-    });
+    // $(window).on('scroll', function() {
+    //     if ($(this).scrollTop() >= 700) {
+    //         $('#backtotop').fadeIn(500);
+    //     } else {
+    //         $('#backtotop').fadeOut(500);
+    //     }
+    // });
 
-    $('#backtotop').on('click', function() {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 500);
-    });
+    // $('#backtotop').on('click', function() {
+    //     $('body,html').animate({
+    //         scrollTop: 0
+    //     }, 500);
+    // });
 
 })(jQuery);
